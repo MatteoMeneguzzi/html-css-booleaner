@@ -1,4 +1,4 @@
-section {
+#head {
   margin: auto;
   width: 100%;
   height: 100px;
@@ -21,7 +21,6 @@ section {
 main {
   margin: auto;
   width: 80%;
-  background-color: ;
   padding: 20px 0;
 }
 
@@ -34,5 +33,17 @@ main {
 }
 
 .subtitle span {
-  color: #3ecffe;
+  color: #01ade4;
+}
+
+#date {
+  font-size: 11px;
+}
+
+.tim {
+  margin-top: 20px;
+}
+
+.description {
+  font-size: 12px;
 }
