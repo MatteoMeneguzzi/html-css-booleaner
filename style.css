@@ -1,20 +1,38 @@
-header {
+section {
   margin: auto;
   width: 100%;
-  height: 50px;
+  height: 100px;
   background-image: url("./img/pattern.png");
   background-color: #6495ed;
-  background-repeat: repeat;
-  background-size: 200px;
+  background-size: 400px;
 }
 
 .container {
   margin: auto;
   width: 80%;
-  height: 50px;
+  height: 100px;
 }
 
 .container img {
-  width: 100px;
-  margin-top: 20px;
+  width: 180px;
+  margin-top: 45px;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+  background-color: ;
+  padding: 20px 0;
+}
+
+#title {
+  font-size: 35px;
+}
+
+.subtitle {
+  color: grey;
+}
+
+.subtitle span {
+  color: #3ecffe;
 }
