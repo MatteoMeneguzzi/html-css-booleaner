@@ -3,7 +3,7 @@
   width: 100%;
   height: 100px;
   background-image: url("./img/pattern.png");
-  background-color: #6495ed;
+  background-color: #4ea0ff;
   background-size: 400px;
 }
 
@@ -29,11 +29,11 @@ main {
 }
 
 .subtitle {
-  color: grey;
+  color: #838383;
 }
 
 .subtitle span {
-  color: #01ade4;
+  color: #44b7e9;
 }
 
 #date {
@@ -54,4 +54,29 @@ p span {
 
 ul {
   padding: 15px;
+}
+
+#data {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#data td,
+#data th {
+  padding-left: 0;
+  width: 25%;
+}
+
+#data .larger-tile {
+  width: 50%;
+}
+
+#data tr:nth-child(even) {
+  background-color: #b1e5f2;
+}
+
+#data th {
+  text-align: left;
+  background-color: #20a9e5;
+  color: white;
 }
