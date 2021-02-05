@@ -1,3 +1,4 @@
+/* header */
 #head {
   margin: auto;
   width: 100%;
@@ -24,6 +25,7 @@ main {
   padding: 20px 0;
 }
 
+/* Titles */
 #title {
   font-size: 35px;
 }
@@ -40,6 +42,7 @@ main {
   font-size: 11px;
 }
 
+/* imgs + desc */
 .tim {
   margin-top: 20px;
 }
@@ -48,6 +51,7 @@ main {
   font-size: 12px;
 }
 
+/* Text1 */
 p span {
   background-color: yellow;
 }
@@ -56,6 +60,7 @@ ul {
   padding: 15px;
 }
 
+/* tab + text */
 #data {
   border-collapse: collapse;
   width: 100%;
@@ -81,6 +86,7 @@ ul {
   color: white;
 }
 
+/* footer */
 footer {
   margin: auto;
   width: 80%;
@@ -106,4 +112,5 @@ footer {
 #art-2 {
   background-image: url("./img/graph.jpg");
   background-size: cover;
+  margin-bottom: 30px;
 }
