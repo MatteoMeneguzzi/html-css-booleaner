@@ -1,0 +1,146 @@
+body {
+    font-family: "Merriweather", serif;
+    background-color: #162238;
+    color: #ffffff;
+  }
+  
+  #head {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,  rgba(12, 14, 59), rgba(245, 246, 252, 0.52)),
+    url('./img/pattern.png'); 
+    background-size: 25%;
+  }
+  
+  .container {
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+  }
+  
+  .container img {
+    width: 250px;
+    margin-top: 30px;
+  }
+  
+  main {
+    margin: auto;
+    width: 80%;
+    padding: 20px 0;
+    padding-left: 0;
+  }
+  
+  /* Titles */
+  #title {
+    font-size: 35px;
+  }
+  
+  .subtitle {
+    color: ;
+  }
+  
+  .subtitle span {
+    color: #00b0a6;
+  }
+  
+  #date {
+    font-size: 11px;
+  }
+  
+  /* imgs + desc */
+  .tim {
+    margin-top: 20px;
+    border: 3px solid white;
+  }
+  
+  .description {
+    font-size: 12px;
+    font-style: italic;
+  }
+  
+  /* Text1 */
+  p span {
+    background-color: #00b0a6;
+    color: black;
+  }
+  
+  ul {
+    padding: 50px;
+    background-color: #e1e1e1;
+    font-style: italic;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: black;
+    margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+  }
+  
+  li {
+    padding: 15px;
+  }
+  
+  /* tab + text */
+  #data {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #data td,
+  #data th {
+    padding-left: 0;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  #data .larger-tile {
+    width: 50%;
+  }
+  
+  #data tr:nth-child(even) {
+    background-color: #77D5D0;
+  }
+  
+  #data tr:nth-child(odd) {
+    background-color: #00b0a6;
+  }
+
+  #data th {
+    text-align: left;
+    background-color: #008089;
+    color: white;
+  }
+  
+  /* footer */
+  footer {
+    margin: auto;
+    width: 80%;
+  }
+  
+  .foot-title {
+    color: #00b0a6;
+  }
+  
+  .articles {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  #art-1 {
+    background-image: url("./img/monitor.jpg");
+    background-size: cover;
+  }
+  
+  #art-2 {
+    background-image: url("./img/graph.jpg");
+    background-size: cover;
+    margin-bottom: 30px;
+  }
+  
