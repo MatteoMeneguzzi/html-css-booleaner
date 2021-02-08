@@ -39,11 +39,13 @@ body {
   }
   
   .subtitle {
-    color: ;
+    font-style: italic;
   }
   
   .subtitle span {
     color: #00b0a6;
+    font-style: normal;
+    margin-left: 5px;
   }
   
   #date {
